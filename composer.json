@@ -3,7 +3,7 @@
     "description": "Weixin-Web OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [{
-        "name": "zifang",
+        "name": "jlwgeneral",
         "email": "350997001@qq.com"
     }],
     "require": {
