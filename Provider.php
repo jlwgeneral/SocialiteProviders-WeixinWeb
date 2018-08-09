@@ -86,7 +86,7 @@ class Provider extends AbstractProvider implements ProviderInterface
 
         $userInfo = json_decode($response->getBody(), true);
         if (isset($userInfo['errcode'])) {
-            throw new \Exception(json_encode($userInfo));
+            throw new \Exception('getUserByToken获取微信用户信息失败' . json_encode($userInfo));
         }
 
         return $userInfo;
@@ -98,7 +98,7 @@ class Provider extends AbstractProvider implements ProviderInterface
      */
     protected function mapUserToObject(array $user)
     {
-        if (!isset($user['openid'], $user['nickname'], $user['avatar'])) {
+        if (!isset($user['openid'], $user['nickname'], $user['headimgurl'])) {
             throw new \Exception('mapUserToObject参数错误' . json_encode($user));
         }
 
@@ -141,7 +141,7 @@ class Provider extends AbstractProvider implements ProviderInterface
 
         $this->credentialsResponseBody = json_decode($response->getBody(), true);
         if (!isset($this->credentialsResponseBody['openid'])) {
-            throw new \Exception(json_encode($this->credentialsResponseBody));
+            throw new \Exception('getAccessTokenResponse获取微信token失败' . json_encode($this->credentialsResponseBody));
         }
         $this->openId = $this->credentialsResponseBody['openid'];
 
