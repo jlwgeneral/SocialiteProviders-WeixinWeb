@@ -39,7 +39,6 @@ class Provider extends AbstractProvider implements ProviderInterface
      */
     protected function getAuthUrl($state)
     {
-        //return $this->buildAuthUrlFromBase('https://open.weixin.qq.com/connect/qrconnect', $state);
         return $this->buildAuthUrlFromBase($this->getConfig(
             'auth_base_uri',
             'https://open.weixin.qq.com/connect/qrconnect'

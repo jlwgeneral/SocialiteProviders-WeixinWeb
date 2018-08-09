@@ -27,14 +27,13 @@
       <file leaf-file-name="Provider.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Provider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-845">
-              <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+            <state relative-caret-position="411">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="e#48#75#0#PHP" expanded="true" />
                 <element signature="e#597#676#0#PHP" expanded="false" />
-                <element signature="e#720#1040#0#PHP" expanded="false" />
-                <element signature="e#1084#1302#0#PHP" expanded="false" />
-                <element signature="e#1346#1663#0#PHP" expanded="false" />
+                <element signature="e#982#1200#0#PHP" expanded="false" />
+                <element signature="e#1244#1561#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -140,12 +139,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533794379414</updated>
-      <workItem from="1533794380979" duration="2827000" />
+      <workItem from="1533794380979" duration="2903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2827000" />
+    <option name="totallyTimeSpent" value="2903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
@@ -181,7 +180,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Provider.php</url>
-          <line>51</line>
+          <line>50</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -218,14 +217,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Provider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-845">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="411">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="e#48#75#0#PHP" expanded="true" />
             <element signature="e#597#676#0#PHP" expanded="false" />
-            <element signature="e#720#1040#0#PHP" expanded="false" />
-            <element signature="e#1084#1302#0#PHP" expanded="false" />
-            <element signature="e#1346#1663#0#PHP" expanded="false" />
+            <element signature="e#982#1200#0#PHP" expanded="false" />
+            <element signature="e#1244#1561#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
