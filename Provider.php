@@ -84,6 +84,7 @@ class Provider extends AbstractProvider implements ProviderInterface
         ]);
 
         $userInfo = json_decode($response->getBody(), true);
+        
         if (isset($userInfo['errcode'])) {
             throw new \Exception('getUserByToken获取微信用户信息失败' . json_encode($userInfo));
         }
